@@ -36,6 +36,7 @@ function InputBox({
             onCurrencyChange && onCurrencyChange(selectedOption.value)
           }
           isSearchable={true}
+          maxMenuHeight={190}
         />
       </div>
     </div>
