@@ -28,10 +28,10 @@ const App = () => {
 
   return (
     <>
-      <div className="main w-full flex flex-wrap justify-center items-center bg-cover bg-no-repeat p-4">
+      <div className="main w-full flex flex-wrap justify-center items-center p-4">
         <div className="w-full">
-          <div className="w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
-            <h1 className="text-center text-2xl font-bold">
+          <div className="w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-black/50">
+            <h1 className="text-center text-2xl font-bold text-white">
               Currency Converter
             </h1>
             <form>
